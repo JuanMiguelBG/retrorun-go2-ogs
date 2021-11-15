@@ -16,7 +16,9 @@ enum DEVICE_TYPE
 		OGA = 1,
 		OGA_1 = 2,
 		RGB10_MAX_TOP = 3,
-		RGB10_MAX_NATIVE = 4
+		RGB10_MAX_NATIVE = 4,
+		RGB10_MAX2_TOP = 5,
+		RGB10_MAX2_NATIVE = 6
 };
 
 extern RETRORUN_CORE_TYPE Retrorun_Core;

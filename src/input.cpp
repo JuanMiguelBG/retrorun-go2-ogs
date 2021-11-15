@@ -44,7 +44,7 @@ static go2_input_button_t hotkey_button;
 
 void configure_input_buttons_by_device()
 {
-	// default OGS, OGA, RGB10_MAX_TOP
+	// default OGS, OGA, RGB10_MAX_TOP, RGB10_MAX2_TOP
 	select_button = Go2InputButton_F1;
 	start_button = Go2InputButton_F2;
 	hotkey_button = Go2InputButton_F3;
@@ -53,7 +53,7 @@ void configure_input_buttons_by_device()
 	{
 		start_button = Go2InputButton_F6;
 	}
-	else if (device == RGB10_MAX_NATIVE)
+	else if ( (device == RGB10_MAX_NATIVE) || (device == RGB10_MAX2_NATIVE) )
 	{
 		hotkey_button = Go2InputButton_F1;
 		select_button = Go2InputButton_F3;

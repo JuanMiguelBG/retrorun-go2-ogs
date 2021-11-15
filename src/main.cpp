@@ -824,6 +824,10 @@ void configure_device()
 		device = OGA_1;
 	else if (strcmp(opt_device, "rgb10maxnative") == 0)
 		device = RGB10_MAX_NATIVE;
+	else if (strcmp(opt_device, "rgb10max2native") == 0)
+		device = RGB10_MAX2_NATIVE;
+	else if (strcmp(opt_device, "rgb10max2top") == 0)
+		device = RGB10_MAX2_TOP;
 	else // rgb10maxtop
 		device = RGB10_MAX_TOP;
 }
