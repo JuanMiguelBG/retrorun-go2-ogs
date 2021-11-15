@@ -4,7 +4,7 @@ Lightweight libretro frontend for ODROID-GO Super developed by OtherCrashOveride
 Build
 ======
 ```
-git clone https://github.com/JuanMiguelBG/retrorun-go2.git
+git clone https://github.com/JuanMiguelBG/retrorun-go2-ogs.git
 make
 strip retrorun
 ```
